@@ -1,0 +1,20 @@
+[package]
+name = 'Staking'
+version = '1.0.0'
+
+[addresses]
+Staking = "_"
+std = "0x1"
+aptos_std = "0x1"
+U256 = "0x4e9fce03284c0ce0b86c88dd5a46f050cad2f4f33c4cdd29d98f501868558c81"
+coin_address = "0xe60c54467e4c094cee951fde4a018ce1504f3b0f09ed86e6c8d9811771c6b1f0"
+staking_owner = "0xf026e0ecc0e53b78ac8819d9fe3eb81cbe79634b2bba3e45f80a87b33ebe3035"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+ 
+[dependencies.U256]
+git = "https://github.com/pontem-network/U256.git"
+rev = "v0.3.9"
